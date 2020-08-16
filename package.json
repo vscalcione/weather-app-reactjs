@@ -8,10 +8,10 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.2",
     "react": "^16.13.1",
+    "react-country-region-selector": "^2.1.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "react-select": "^3.1.0",
-    "react-select-country-list": "^2.2.1",
     "weather-icons": "git+https://github.com/erikflowers/weather-icons.git"
   },
   "scripts": {
