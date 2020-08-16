@@ -1,5 +1,6 @@
 import React from 'react';
 import './formComponent.css';
+import CountryList from '../countryList/countryListComponent';
 
 const Form = props => {
   return (
@@ -11,7 +12,8 @@ const Form = props => {
             <input type="text" className="form-control" placeholder="City" name="city" autoComplete="on" />
           </div>
           <div className="col-md-3">
-            <input type="text" className="form-control" placeholder="Country" name="country" autoComplete="on" />
+             <CountryList />
+            {/*<input type="text" className="form-control" placeholder="Country" name="country" autoComplete="on" />*/}
           </div>
           <div className="col-md-3 mt-md-0 mt-2 text-md-left ">
             <button className="btn btn-warning">Get Weather</button>
